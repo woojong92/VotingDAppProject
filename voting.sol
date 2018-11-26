@@ -10,16 +10,10 @@ contract Voting{
     event NewCandidate(uint candidateId, string name);
     
     Candidate[] public candidates;
-    //mapping (bytes32 => uint8) public votesReceived;
-    
-    
+
     mapping (uint => address) public candidateToOwner;
     mapping (address => uint) ownerCandidateCount;
-    /*
-    constructor(bytes32[] memory candidateNames) public {
-        candidateList = candidateNames;
-    }
-    */
+
     function createCandidate(string memory _name) public {
         uint id = candidates.push(Candidate(_name, 0)) -1;
         candidateToOwner[id] = msg.sender;
