@@ -1,5 +1,8 @@
 pragma solidity ^0.5.0;
 
+import "./safemath.sol";
+import "./ownable.sol";
+
 contract Voting{
     
     struct Candidate{
