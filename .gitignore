@@ -1,11 +1,21 @@
+# Created by https://www.gitignore.io/api/geth,node,solidity
+# Edit at https://www.gitignore.io/?templates=geth,node,solidity
 
-# Created by https://www.gitignore.io/api/node,solidity
-# Edit at https://www.gitignore.io/?templates=node,solidity
+### Geth ###
+# .gitignore for Geth 0.4.16
+
+# caches
+/geth
+/keystore
+history
+
+# logs
+*.out
+*.log
 
 ### Node ###
 # Logs
 logs
-*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -127,4 +137,4 @@ typings/
 
 # FuseBox cache
 
-# End of https://www.gitignore.io/api/node,solidity
+# End of https://www.gitignore.io/api/geth,node,solidity
