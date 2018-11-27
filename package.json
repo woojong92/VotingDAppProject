@@ -1,0 +1,24 @@
+{
+  "name": "votingdappproject",
+  "version": "1.0.0",
+  "description": "- Remix\r - ganache\r - Window10",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woojong92/VotingDAppProject.git"
+  },
+  "author": "woojong92",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woojong92/VotingDAppProject/issues"
+  },
+  "homepage": "https://github.com/woojong92/VotingDAppProject#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "web3": "^1.0.0-beta.36"
+  }
+}
